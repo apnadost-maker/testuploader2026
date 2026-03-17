@@ -1214,7 +1214,7 @@ async def txt_handler(bot: Client, m: Message):
 
             elif any(x in url for x in ["https://cpvod.testbook.com/", "classplusapp.com/drm/", "media-cdn.classplusapp.com", "media-cdn-alisg.classplusapp.com", "media-cdn-a.classplusapp.com", "tencdn.classplusapp", "videos.classplusapp", "webvideos.classplusapp.com"]):
                 url_norm = url.replace("https://cpvod.testbook.com/", "https://media-cdn.classplusapp.com/drm/")
-                api_url_call = f"https://cp-test-f2uk.vercel.app/ITsGOLU_OFFICIAL?url=>>{url}"
+                api_url_call = f"https://cp-test-f2uk.vercel.app/ITsGOLU_OFFICIAL?url=https://media-cdn.classplusapp.com/drm/671f8105e03d03c5ed2f9a2e/playlist.m3u8"
                 keys_string = ""
                 mpd = None
                 try:
